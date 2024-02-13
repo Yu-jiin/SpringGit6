@@ -36,4 +36,11 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/test", method = RequestMethod.GET)
+	public void Test() {
+		logger.debug("Test() 호출");
+		logger.debug("1. 서비스 객체 생성");
+		logger.debug("2. DAO 객체 생성");
+		logger.debug("3. mapper 호출");
+	}
 }
