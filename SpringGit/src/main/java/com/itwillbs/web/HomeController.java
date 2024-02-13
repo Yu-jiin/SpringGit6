@@ -50,5 +50,7 @@ public class HomeController {
 		logger.debug("1. �꽌鍮꾩뒪 媛앹껜 �깮�꽦");
 		logger.debug("2. DAO 媛앹껜 �깮�꽦");
 		logger.debug("3. mapper �샇異�");
+		logger.debug("4. Test 실행 ");
+		
 	}
 }
