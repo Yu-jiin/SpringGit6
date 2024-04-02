@@ -1,4 +1,4 @@
-package com.itwillbs.web;
+package com.itwillbs.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -36,28 +36,4 @@ public class HomeController {
 		return "home";
 	}
 	
-	@RequestMapping(value = "/test", method = RequestMethod.GET)
-	public void Test() {
-		logger.debug("Test() 호출");
-		logger.debug("1. 서비스 객체 생성");
-		logger.debug("2. DAO 객체 생성");
-		logger.debug("3. mapper 호출");
-	}
-	
-	@RequestMapping(value = "/test", method = RequestMethod.GET)
-	public void Test2() {
-		logger.debug("Test2() 호출");
-		logger.debug("1. 서비스 객체 생성");
-		logger.debug("2. DAO 객체 생성");
-		logger.debug("3. mapper 호출");
-	}
-	
-	@RequestMapping(value = "/test", method = RequestMethod.GET)
-	public void Test3() {
-		logger.debug("Test3() 호출");
-		logger.debug("1. 서비스 객체 생성");
-		logger.debug("2. DAO 객체 생성");
-		logger.debug("3. mapper 호출");
-		logger.debug("4. 결과 출력");
-	}
 }
